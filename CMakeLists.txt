@@ -1,6 +1,8 @@
-cmake_minimum_required(VERSION 4.2)
-project(TC_FT_RNLB_03___Flottants_IEEE_754)
+cmake_minimum_required(VERSION 3.16)
+project(TC_FT_RNLB_03_FlottantsIEEE754 CXX)
 
 set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
-add_executable(TC_FT_RNLB_03___Flottants_IEEE_754 main.cpp)
+add_subdirectory(01_flottants)
